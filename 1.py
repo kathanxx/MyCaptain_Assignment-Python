@@ -11,7 +11,7 @@ while i == "y":
     file=input("Enter filename : ")
     file=file.lower()
     s = file.split(".")
-    extention = s[1]
+    extention = s[-1]
     extention_dictionary = {
     "py" : "Python",
     "c" : "C",
